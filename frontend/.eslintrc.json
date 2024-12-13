@@ -1,0 +1,17 @@
+{
+  "extends": ["airbnb", "airbnb-base"],
+  "rules": {
+    "react/jsx-filename-extension": "off",
+    "react/forbid-prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "eslint-import-resolver-custom-alias": {
+        "alias": { "@": "./" },
+        "extensions": [".js", ".ts", ".tsx"]
+      }
+    }
+  }
+}
